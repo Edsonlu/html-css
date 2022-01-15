@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grounping tags </title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(207, 191, 191);
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 20px 20px 20px;
+            box-shadow: 10px 10px black;
+        }
+        article {
+            background-color: lightgray;
+            padding: 10px;
+        }
+        article > aside {
+            background-color: rgb(167, 145, 145);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 5px;
+            padding: 5px;
+        
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    h1 {
+        box-shadow: inset 2px 1px 14px 6px black;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Menu</a>
+            <a href="#">Cinema</a>
+            <a href="#">Noticias</a>
+            <a href="#">Entretenimento</a>
+            <a href="#">Tecnologia</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+        </section>
+        <section id="noticias">
+            <p>Esporte Política e Tecnologia</p>
+            <article>
+                <h2>Notícias pelo Brasil e pelo mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure voluptatibus excepturi, sit aliquid accusamus aliquam ratione placeat perferendis harum vel? Sunt nihil illum modi exercitationem animi quas neque quasi.</p>
+                <aside>
+                    <p>Artigo escrito por Edson Luiz</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola" >
+        
+    </div>
+</body>
+</html>

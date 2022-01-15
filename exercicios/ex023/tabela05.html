@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova tabela</title>
+    <style>
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 4em;
+            border-collapse: collapse;
+            background-color: rgb(130, 194, 224);
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        body {
+            background-color: chartreuse;
+        }
+        h1 {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nova tabela</h1>
+    <table> 
+        <thead>Tabela do dicionário</thead>
+        <tr>
+        <td rowspan="6">A</td>
+        <td rowspan="6">B</td>
+        <td rowspan="6">C</td>
+        <td rowspan="6">D</td>
+        <td rowspan="6">E</td>
+        </tr>  
+        <tr>
+            <td colspan="4">F</td>
+            <td>M</td>
+            <td>N</td>
+            <td>O</td>
+            <td>P</td>
+            <td>Q</td>
+            <td>R</td>
+            <td>Y</td>
+        </tr>    
+        <tr>
+            <td colspan="10">G</td>
+            <td>X</td>
+        </tr>      
+        <tr>
+            <td colspan="10">H</td>
+            <td>W</td>
+        </tr>
+        <tr>
+            <td colspan="10">I</td>
+            <td>V</td>
+        </tr>
+        <tr>
+            <td colspan="10">J</td>
+            <td>U</td>
+        </tr>
+        <tr>
+            <td colspan="15">K</td>
+            <td>T</td>
+        </tr>
+        <tr>
+            <td colspan="15">L</td>
+            <td colspan="20">Z</td>
+        </tr>
+        <tr>
+            <td colspan="20">S</td>
+        </tr>
+    </table>
+</body>
+</html>
