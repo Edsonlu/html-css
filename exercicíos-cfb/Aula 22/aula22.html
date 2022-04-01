@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBF - Cursos</title>
+</head>
+<body>
+  <button onclick="AbrirDialog()">Abrir</button>
+  <button onclick="fecharDialog()">Fechar</button>
+  <dialog id="d1" open="texto">
+    <p><dfn title="Linguagem de marcação para Web">HTML</dfn>Hypertext Markup Language é uma linguagem de marcação utilizada na construção de páginas para web.</p>
+<p><dfn><abbr title="Formatação para páginas web">CSS Cascanding style sheets recurso para adicionar estilos/ formatações a um documento web.</abbr></dfn></p>
+  </dialog>
+  <script>
+    function AbrirDialog() {
+      document.getElementById('d1').setAttribute('open', '')
+    }
+    function fecharDialog() {
+      document.getElementById('d1').removeAttribute('open')
+    }
+  </script>
+</body>
+</html>

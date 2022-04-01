@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFB - Cursos</title>
+  <style>
+    .quebra {
+      display: block;
+    }
+    .espaço {
+      margin-bottom: 15px;
+    }
+    .espaço_topo {
+      margin-top: 15px;
+    }
+    form {
+      border: 1px solid black;
+      padding: 10px;
+      border-radius: 15px;
+      background-color: #eee;
+      font-size: 20px;
+    }
+    input {
+      font-size: 20px;
+
+    }
+  </style>
+</head>
+<body>
+  <!--file
+  multiple(boolean)
+accept="doc,.docx,"
+accept="applicatin/msword"
+accept="image/*,.pdf"
+accept=".jpg,.gif,.png"
+url
+placeholder="https://cbfcursos.com.br"
+pattern="https://.*"-->
+  <form action="#" name="f_cadastro" method="get">
+    <!-- Tel (pattern e placeholder) nunber(step, max, min) search-->
+    <label for="" class="quebra" >Selecione o arquivo</label>
+    <input type="file" name="f_arquivo">
+
+    <label for="" class="quebra espaço_topo" >Digite o URL</label>
+    <input type="url" name="f_url" multiple>
+    
+    <input class="espaço_topo quebra" type="submit" name="f_enviar" value="Enviar">
+  </form>
+  
+</body>
+</html>

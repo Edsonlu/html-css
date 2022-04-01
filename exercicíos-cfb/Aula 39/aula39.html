@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBF - Cursos</title>
+  <style>
+    .quebra {
+      display: block;
+    }
+    .espaço {
+      margin-bottom: 15px;
+    }
+    .espaço_t {
+      margin-top: 15px;
+    }
+    
+    article {
+      border: 1px solid black;
+      padding: 10px;
+      border-radius: 15px;
+      background-color: #eee;
+      margin-top: 40px;
+
+    }
+  </style>
+</head>
+<body>
+    <article>
+      <form action="#" name="f_cadastro" method="get">
+        <select name="f_cor" id="">
+          <option value="">Preto</option>
+          <option value="">Branco</option>
+          <option value="">Vermelho</option>
+          <option value="">Azul</option>
+          <option value="">Laranja</option>
+          <option value="">Verde</option>
+          <option value="">Amarelo</option>
+          <option value="">Lilas</option>
+          <option value="">Roxo</option>
+          <option value="">Ouro</option>
+        </select>
+        <input class="espaço_t quebra" type="submit" name="f_enviar" value="Enviar">
+    </article>
+    <h1>Observe que o &lt;article&gt; logo abaixo possui o &ltmultiple&gt;</h1>
+
+    <article>
+      <form action="#" name="f_cadastro" method="get" class="abaixo">
+        <select name="f_cor" id="" multiple>
+          <option value="">Preto</option>
+          <option value="">Branco</option>
+          <option value="">Vermelho</option>
+          <option value="">Azul</option>
+          <option value="">Laranja</option>
+          <option value="">Verde</option>
+          <option value="">Amarelo</option>
+          <option value="">Lilas</option>
+          <option value="">Roxo</option>
+          <option value="">Ouro</option>
+        </select>
+        <input class="espaço_t quebra" type="submit" name="f_enviar" value="Enviar">
+    </article>
+    <h1>Logo abaixo temos o parametro &lt;size&gt;</h1>
+
+    <article>
+      <form action="#" name="f_cadastro" method="get" class="abaixo">
+        <select name="f_cor" id="" multiple size="2">
+          <option value="">Preto</option>
+          <option value="">Branco</option>
+          <option value="">Vermelho</option>
+          <option value="">Azul</option>
+          <option value="">Laranja</option>
+          <option value="">Verde</option>
+          <option value="">Amarelo</option>
+          <option value="">Lilas</option>
+          <option value="">Roxo</option>
+          <option value="">Ouro</option>
+        </select>
+        <input class="espaço_t quebra" type="submit" name="f_enviar" value="Enviar">
+    </article>
+    <h1>Logo abaixo temos o value para option indicando um valor para o mesmo</h1>
+
+    <article>
+      <form action="#" name="f_cadastro" method="get" class="abaixo">
+        <select name="f_gen" id="">
+          <option value="M">Masculino</option>
+          <option value="F">Feminino</option>
+        </select>
+        <input class="espaço_t quebra" type="submit" name="f_enviar" value="Enviar">
+    </article>
+    <h1>Logo abaixo a mesma amostra só que agora com dois produtos</h1>
+
+    <article>
+      <form action="#" name="f_cadastro" method="get" class="abaixo">
+        <select name="f_prod" id="">
+          <option value="m1825t">Impresorra HP deskjet 1800</option>
+          <option value="t270series">TV 98 8K Sansung </option>
+        </select>
+        <input class="espaço_t quebra" type="submit" name="f_enviar" value="Enviar">
+    </article>
+    
+
+  </form>
+</body>
+</html>

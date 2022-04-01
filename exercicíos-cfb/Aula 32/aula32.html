@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFB - Cursos</title>
+  <style>
+    input {display: block;}
+    form {
+      border: 1px solid #000;
+      padding: 15px;
+      border-radius: 15px;
+      background-color: #eee;
+    }
+    #dv_btns {
+      display: flex;
+    }
+  </style>
+</head>
+<body>
+  <form action="#" name="f_cadastro" method="post"><!--Aqui no method pode ser usado post get pelo navegador-->
+    <label for="">Nome:</label>
+    <input type="text" name="f_nome">
+    <div id="dv_btns">
+      <input type="submit" name="f_btn_enviar" value="Gravar">
+      <input type="reset" name="f_btn_limpar" value="Limpar">
+      <input type="button" name="f_btn_nada" value="Nada">
+    </div>
+  </form>
+  
+</body>
+</html>

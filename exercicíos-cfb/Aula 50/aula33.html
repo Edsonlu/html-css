@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFB - Cursos</title>
+  <style>    
+    .quebra {
+      display: block;
+    }
+    .espaço {
+      margin-bottom: 15px;
+    }
+    .espaço_topo {
+      margin-top: 15px;
+    }
+    form {
+      border: 1px solid black;
+      padding: 10px;
+      border-radius: 15px;
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <form name="f_cadastro" action="#" method="get">
+  <label for="">Username</label>
+  <input class="espaço quebra" type="text" name="f_username" maxlength="20" size="25">
+  <label for="">Senha:</label>
+  <input class="espaço quebra" type="password" name="f_senha" maxlength="6" size="15">
+  <label for="" class="quebra">Esportes favoritos</label>
+  <input type="checkbox" name="f_basquete" value="basquete">Basquete
+  <input type="checkbox" name="f_futebol" value="futebol">Futebol
+  <input type="checkbox" name="f_volei" value="volei">Volei
+  <input type="checkbox" name="f_natação" value="natação">Natação
+  <input type="checkbox" name="f_hipismo" value="hipismo">Hipismo
+  <input type="checkbox" name="f_Karate" value="karate">Karate
+  <input type="checkbox" name="f_tenis" value="tenis">Tenis
+  <input type="checkbox" name="f_ciclismo" value="ciclismo">Ciclismo
+  <input type="checkbox" name="f_corrida" value="corrida">Corrida
+  <input type="checkbox" name="f_atletismo" value="atletismo">Atletismo
+  <label for="" class="quebra espaço_topo">Possui automovel?</label>
+  <input type="radio" name="f_carro" id="" value="s">Sim
+  <input type="radio" name="f_carro" id="" value="n">Não
+  <label for="" class="quebra espaço_topo">Você é maior de 18 anos?</label>
+  <input type="radio" name="f_idade" id="" value="s">Sim
+  <input type="radio" name="f_idade" id="" value="n">Não
+  <label for="" class="quebra espaço_topo">Fala alguma lingua estrangeira?</label>
+  <input type="radio" name="f_lingua" id="" value="s">Sim
+  <input type="radio" name="f_lingua" id="" value="n">Não
+  <label for="" class="quebra espaço_topo">Possui disponibilidade de horário?</label>
+  <input type="radio" name="f_horario" id="" value="s">Sim
+  <input type="radio" name="f_horario" id="" value="n">Não
+  <label for="" class="quebra espaço_topo">Possui carta de habilitação?</label>
+  <input type="radio" name="f_habilitação" id="" value="s">Sim
+  <input type="radio" name="f_habilitação" id="" value="n">Não
+  <label for="" class="quebra espaço_topo">Concluiu o ensino médio?</label>
+  <input type="radio" name="f_medio" id="" value="s">Sim
+  <input type="radio" name="f_medio" id="" value="n">Não
+  <label for="" class="quebra espaço_topo">Possui algum curso de programação?</label>
+  <input type="radio" name="f_programação" id="" value="s">Sim
+  <input type="radio" name="f_programação" id="" value="n">Não
+  <label for="" class="quebra espaço_topo">Possui disponibilidade para viajar?</label>
+  <input type="radio" name="f_viajar" id="" value="s">Sim
+  <input type="radio" name="f_viajar" id="" value="n">Não
+
+  <input class="espaço_topo quebra" type="submit" name="f_entrar" value="Entrar" id="">
+  </form>
+</body>
+</html>

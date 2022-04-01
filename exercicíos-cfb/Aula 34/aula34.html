@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFB - Cursos</title>
+  <style>
+    .quebra {
+      display: block;
+    }
+    .espaço {
+      margin-bottom: 15px;
+    }
+    .espaço_topo {
+      margin-top: 15px;
+    }
+    form {
+      border: 1px solid black;
+      padding: 10px;
+      border-radius: 15px;
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <form action="#" name="f_cadastro" method="get">
+    <label for="" class="quebra">Hora.</label>
+    <input type="time" name="f_hora" min="09:00" max="17:00" required>
+    <!--Na linha acima min e max identificam o valor minimo e maximo do intervalo enquanto que required obriga a inserção ou a digitação de um determinado valor em um campo especifico-->
+    
+  
+
+  <form action="#" name="f_cadastro" method="get">
+    <label for="" class="quebra espaço_topo">Data.</label>
+    <input type="date" name="f_date" min="2022-06-03" max="2022-06-08" required>
+  
+    <label for="" class="quebra espaço_topo">Data e Hora</label>
+    <input type="datetime-local" name="f_date_hora" min="2022-06-03" max="2022-06-08" required>
+
+    <input type="submit" class="espaço_topo quebra" name="f_enviar">
+  </form>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</body>
+</html>

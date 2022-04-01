@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBF - Cursos</title>
+  <style>
+    .quebra {
+      display: block;
+    }
+    .espaço {
+      margin-bottom: 15px;
+    }
+    .espaço_topo {
+      margin-top: 15px;
+    }
+    form {
+      border: 1px solid black;
+      padding: 10px;
+      border-radius: 15px;
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <form action="#" name="f_cadastro" method="get">
+    <!--Color, e-mail, image assuntos da aula de hoje-->
+    <label for="" class="quebra" >Selecione uma cor</label>
+    <input type="color" name="f_cor">
+    <label for="" class="quebra espaço_topo">Digite seu e-mail</label>
+    <input type="email" name="f_email">
+
+    <input type="image" name="f_enviar2" class="quebra espaço_topo" src="logo.jpg">
+
+
+    <input class="espaço_topo quebra" type="submit" name="f_enviar" value="Enviar">
+  </form>
+  
+</body>
+</html>

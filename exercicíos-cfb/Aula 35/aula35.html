@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFB - Cursos</title>
+  <style>
+    .quebra {
+      display: block;
+    }
+    .espaço {
+      margin-bottom: 15px;
+    }
+    .espaço_topo {
+      margin-top: 15px;
+    }
+    form {
+      border: 1px solid black;
+      padding: 10px;
+      border-radius: 15px;
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <form action="#" name="f_cadastro" method="get">
+    <label for="" class="quebra" >Mês</label>
+    <input type="month" name="f_mês">
+    <label for="" class="quebra espaço_topo">Semana</label>
+    <input type="week" name="f_semana">
+
+    <input type="hidden" name="canal" value="cfbcursos">
+    <input type="hidden" name="curso" value="html5">
+
+
+    <input class="espaço_topo quebra" type="submit" name="f_enviar" value="Enviar">
+  </form>
+  
+</body>
+</html>
