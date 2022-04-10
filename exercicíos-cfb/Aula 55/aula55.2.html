@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFB - cursos</title>
+  <style>
+    iframe {
+      width: 500px;
+      height: 300px;
+      border: none;
+      margin: 10px;
+    }
+    #banner {
+      width: 400px;
+      height: 260px;
+      border: none;
+      margin: 10px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <iframe src="" frameborder="10" name="banner" id="banner"></iframe>
+  <br>
+  <a href="aula33.html" target="main">Aula 33</a>
+  <a href="http://www.cfbcursos.com.br" target="main">Site do canal</a>
+  <a href="http://w3.org" target="main">W3</a>
+  <br>
+  <iframe src="http://www.cfbcursos.com.br" frameborder="10" name="main"></iframe>
+  <script>
+    function trocaBanner() {
+      var num=Math.floor(Math.random()*3)
+      var imgs=['b1.jpg', 'b2.jpg', 'b3.jpg']
+      document.getElementById('banner').src=imgs[num]
+    }
+    function iniciar() {
+      trocaBanner()
+    }
+    window.addEventListener("load", iniciar)
+  </script>
+  
+</body>
+</html>

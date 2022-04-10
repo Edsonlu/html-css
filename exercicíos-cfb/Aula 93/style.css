@@ -1,0 +1,19 @@
+.menu {
+  background-color: #444;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin-left: 20px;
+}
+.menu a {
+  display: block;
+  text-align: center;
+  padding: 25px;
+  transition: all 0.5s all;
+}
+.menu a:hover {
+  background-color: #400;
+}
+.ativo {
+  background-color: #a00;
+}
