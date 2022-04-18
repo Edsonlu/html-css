@@ -1,0 +1,31 @@
+*{box-sizing: border-box;}
+body{font-family: Arial, Helvetica, sans-serif; margin: 0;}
+
+.slide {
+ /* display: none;*/
+}
+.imgSlide {vertical-align: middle;}
+.btnanterior, .btnproximo {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 15px;
+  margin-top: -22px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.4s ease;
+  user-select: none;
+}
+.btnanterior {
+  left: 0;
+  border-radius: 0px 5px 5px 0px;
+}
+.btnproximo {
+  right: 0;
+  border-radius: 5px 0px 0px 5px;
+}
+.btnanterior:hover, .btnproximo:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}

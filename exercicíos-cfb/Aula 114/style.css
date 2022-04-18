@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+}
+*,*:before *:after {
+  box-sizing: inherit;
+}
+.colunaCartão {
+  float: left;
+  width: 29%;
+  margin-bottom: 15px;
+  padding: 0 8px;
+}
+.cartão {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.textoCartão {
+  padding: 0px 16px;
+  width: 270px;
+  padding-bottom: 8px;
+}
+.textoCartão::after, .linhaCartão::after {
+  content: "";
+  clear: both;
+  display: flexbox;
+}
+.titulo {
+  color: #444;
+  width: 350px;
+}
+.botão {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 350px;
+}
+.botão:hover {
+  background-color: #444;
+}
+@media screen and (max-width: 700px){
+  .colunaCartão{
+    width: 100%;
+    display: block;
+  }
+}
+.imagem {
+  width: 100%;
+}

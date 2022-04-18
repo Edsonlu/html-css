@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFB - Cursos aula 109 parte 2</title>
+  <style>
+    .conteinerImg {
+  position: relative;
+  width: 50%;
+  margin: 10px;
+}
+.conteinerImg img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.sobreposição {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  background-color: #005a89;
+  overflow: hidden;
+  transition: .4s ease;
+}
+.conteinerImg:hover .sobreposição {
+  opacity: 1;
+  height: 100%;
+}
+.textoImg {
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+.textoImg a {
+  text-decoration: none;
+  color: #fff;
+}
+.textoImg a:hover {
+  color: #000;
+}
+  </style>
+</head>
+<body>
+  <section class="conteinerImg">
+    <img src="imagem1.jpeg" alt="HTML Completo e profissional" class="">
+    <section class="sobreposição">
+      <article class="textoImg">
+        <p>HTML Completo e profissional</p>
+        <p><a href="#">Clique aqui</a></p>
+      </article>
+    </section>
+  </section>
+
+  <section class="conteinerImg">
+    <img src="imagem2.jpeg" alt="Curso de Javascript do CFB - Cursos" class="">
+    <section class="sobreposição">
+      <article class="textoImg">
+        <p>Curso de Java Script do CFB - Cursos</p>
+        <p><a href="#">Clique aqui</a></p>
+      </article>
+    </section>
+  </section>
+</body>
+</html>

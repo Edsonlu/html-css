@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFB - Cursos aula 97 seção de guias Tab P1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="tabs">
+    <button  data-btnTabs onclick="abrirTab(event, 'C#')" id="primeiro">C#</BUtton>
+    <button  data-btnTabs onclick="abrirTab(event, 'HTMLCompleto')" id="">HTML Completo</button>
+    <button  data-btnTabs onclick="abrirTab(event, 'Arduino')" id="">Arduino</button>
+  </nav>
+
+  <article id="C#" class="conteudoTab">
+    <span class="fecharTab" onclick="this.parentElement.style.display='none'">X</span>
+    <h3>C#</h3>
+    <p>Curso de programação completo em C#</p>
+  </article>
+
+  <article id="HTMLCompleto" class="conteudoTab">
+    <span class="fecharTab" onclick="this.parentElement.style.display='none'" >X</span>
+    <h3>HTML Completo</h3>
+    <p>Curso Completo e profissional de HTML</p>
+  </article>
+
+  <article id="Arduino" class="conteudoTab">
+    <span class="fecharTab" onclick="this.parentElement.style.display='none'">X</span>
+    <h3>Arduino</h3>
+    <p>Curso prático de prototipagen Arduino</p>
+  </article>
+
+  <script src="aula96.js"></script>
+</body>
+</html>

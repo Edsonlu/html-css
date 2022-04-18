@@ -1,0 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+.sec {
+  height: 600px;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#sec1 {
+  background-color: #f00;
+}
+#sec2 {
+  background-color: #0f0;
+}
+a, h2 {
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-left: 10px;
+}
+#sec3 {
+  background-color: blue;
+}
+#sec4 {
+  background-color: yellow;
+}
+.amarela {
+  color: black;
+  font-weight: bold;
+}
