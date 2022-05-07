@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFB - Cursos aula 134 Inserir imagens no canvas</title>
+</head>
+<body>
+  <img src="nave.png.png" alt=""><br>
+  <canvas id="senho1" width="500" height="500" style="border: 1px solid black;">
+  <h2>Seu browser não possui suporte ao canvas</h2>
+  </canvas>
+    
+  <script>
+    let canvas=document.getElementById('desenho1')
+    let ctx=canvas.getContext('2d')
+
+    let nave=new Image()
+    nave.src="nave.png.png"
+    nave.png.addEventListener("load", ()=>{
+      ctx.drawImage(nave,0, 0, 50, 50)
+    })
+  </script>
+</body>
+</html>

@@ -13,18 +13,36 @@ html {
 #sec2 {
   background-color: #0f0;
 }
+#sec3 {
+  background-color: blue;
+}
+#sec4 {
+  background-color: yellow;
+}
+#sec5 {
+  background-color: aqua;
+}
+#sec6 {
+  background-color: blueviolet;
+}
+#sec7 {
+  background-color: cadetblue;
+}
+#sec8 {
+  background-color: black;
+}
+#sec9 {
+  background-color: burlywood;
+}
+#sec10 {
+  background-color: beige;
+}
 a, h2 {
   font-size: 22px;
   color: white;
   font-weight: bold;
   padding: 10px;
   margin-left: 10px;
-}
-#sec3 {
-  background-color: blue;
-}
-#sec4 {
-  background-color: yellow;
 }
 .amarela {
   color: black;

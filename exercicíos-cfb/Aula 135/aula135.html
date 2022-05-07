@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFB - Cursos aula 135 sprite sheet</title>
+</head>
+<body>
+  <img src="cores.png" alt=""><br>
+  <canvas id="senho1" width="500" height="500" style="border: 1px solid black;">
+    <h2>Seu browser não possui suporte ao canvas</h2>
+  </canvas>
+  <script>
+    let canvas=document.getElementById('desenho1')
+    let ctx=canvas.getContext('2d')
+
+    let cores=new Image()
+    cores.src="cores.png"
+    let nunSprite=0
+    let posIniX=0
+    let Limagem=0
+    let largSprite=0
+    let numSprite=4
+    cores.addEventListener('load', ()=>{
+      Limagem=cores.width
+      largSprite=Limagem/numSprite
+      posIniX=largSprite*numSprite
+      ctx.drawImage(cores,posIniX,0,largSprite,50,0,0,200,200)
+    } )
+
+    let anima=setInterval(()=>{
+      numSprite++
+      if(numSprite>3)
+      numSprite=0
+      largSprite=Limagem/numSprite
+      ctx.drawImage(cores,posIniX,0,largSprite,50,0,0,200,200)
+    },1000
+    )
+    
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+

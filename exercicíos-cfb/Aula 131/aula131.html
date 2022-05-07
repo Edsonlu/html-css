@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFB - Cursos aula 131 desenhando arcos e circulos</title>
+</head>
+<body>
+  <canvas id="desenho1" width="500" height="500" style="border: 1px solid black;">
+    <h2>Seu browser não possui suporte ao canvas</h2>
+  </canvas>
+  <script>
+    let canvas=document.getElementById('desenho1')
+    let ctx=canvas.getContext('2d')
+
+    function desenha(){
+      ctxfillStyle='#000'
+      ctx.arq(100,100,100,(Math.PI/180)*0,(Math.PI/180)*90,true)
+      ctx.fill()
+      ctx.beginPath()
+      ctxfillStyle="#f00"
+      ctx.arq(100,100,100,(Math.PI/180)*0,(Math.PI/180)*90,false)
+      ctx.fill()
+    }
+    desenha()
+  </script>
+</body>
+</html>

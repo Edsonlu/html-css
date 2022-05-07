@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFB - Cursos aula 126.2</title>
+  <script>
+    function desenha(){
+    var canvas=document.getElementById("desenho1")
+    var ctx=canvas.getContext('2d')
+
+    ctx.fillStyle="#00f"
+    ctx.rect(0, 0, 200, 200)
+    ctx.fill()
+
+    ctx.clearRect(50,50,50,50)
+    }
+  </script>
+  
+</head>
+<body onload="desenha()">
+  <canvas id="desenho1" width="500px" height="500px" style="border: 1px solid black;">
+    <h3>Seu browser não possui suporte ao canvas</h3>
+  </canvas>
+</body>
+</html>
